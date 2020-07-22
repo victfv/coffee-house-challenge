@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<style>
+  h1
+  {
+    color: red;
+    font-family: monospace;
+  }
+  .blackBK
+  {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .menuOption
+  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+  }
+  .menuOption:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+</style>
+
+<html>
+<head>
+  <title> Test Site </title>
+</head>
+<body>
+  <div class="blackBK">
+    <div class="menuOption">
+      <a class="menuOption" href="#1" > HOME </a>
+    </div>
+    <div class="menuOption">
+      <a class="menuOption" href="#1" > HOME </a>
+    </div>
+    <div class="menuOption">
+      <a class="menuOption" href="#1" > HOME </a>
+    </div>
+    <div class="menuOption">
+      <a class="menuOption" href="#1" > HOME </a>
+    </div>
+  </div>
+
+</body>
+</html>

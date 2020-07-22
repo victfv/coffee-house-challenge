@@ -21,7 +21,7 @@
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 5% 10px 5%;
     color: white;
   }
   .menuOption:hover
@@ -38,18 +38,26 @@
 </head>
 <body>
   <div class="blackBK">
-    <div class="menuOption">
-      <a class="menuOption" href="#1" > HOME </a>
-    </div>
-    <div class="menuOption">
-      <a class="menuOption" href="#1" > HOME </a>
-    </div>
-    <div class="menuOption">
-      <a class="menuOption" href="#1" > HOME </a>
-    </div>
-    <div class="menuOption">
-      <a class="menuOption" href="#1" > HOME </a>
-    </div>
+    <a class="menuOption" href="#1">
+      <div>
+        HOME
+      </div>
+    </a>
+    <a class="menuOption" href="#1">
+      <div>
+        ABOUT
+      </div>
+    </a>
+    <a class="menuOption" href="#1">
+      <div>
+        MENU
+      </div>
+    </a>
+    <a class="menuOption" href="#1">
+      <div>
+        WHERE
+      </div>
+    </a>
   </div>
 
 </body>

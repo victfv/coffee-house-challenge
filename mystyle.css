@@ -1,3 +1,29 @@
+
+
+.blackBK
+{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menuOption
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.menuOption:hover
+{
+    background-color: white;
+    color: black;
+}
+
 body
 {
 	font-family: 'Inconsolata', sans-serif;

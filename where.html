@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+  .subTitleDiv
+  {
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+  }
+
+  .subtitleSpacer
+  {
+    margin-bottom: 80px;
+  }
+
+  .textField
+  {
+    width: 100%;
+    height: 40px;
+    margin: 8px 0px 8px 0px;
+    font-family: Inconsolata;
+  }
+
+  .centerContent
+  {
+    width: 40%;
+    margin: auto;
+  }
+
+  #locPic
+  {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #fyiSP
+  {
+    font-size: 22;
+    background-color: black;
+    color: white;
+    padding: 3px;
+  }
+
+  #SMessageButton
+  {
+    font-family: Inconsolata;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 16px;
+  }
+  #SMessageButton:hover
+  {
+    background-color: silver;
+    color: black;
+  }
+
+  h2
+  {
+    font-family: Inconsolata;
+    color: white;
+    background-color: black;
+    width: auto;
+    display: inline-block;
+    padding: 0px 8px 0px 8px;
+    margin: auto;
+    font-weight: lighter;
+  }
+  p
+  {
+    font-family: Inconsolata;
+    line-height: 30px;
+  }
+</style>
+
+<html>
+<div class="centerContent">
+<div class="subTitleDiv">
+  <h2>WHERE TO FIND US</h2>
+</div>
+
+<div class="subtitleSpacer"></div>
+
+<p> Find us at some address at some place.</p>
+
+<img id="locPic" src="https://www.w3schools.com/w3images/map.jpg" alt="location picture">
+
+<div id="fyiDiv">
+  <p>
+    <span id="fyiSP">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+  </p>
+  <p>
+    Reserve a table, ask for today's special or just send us a message:
+  </p>
+</div>
+<div id="formsDiv">
+  <input class="textField" type="text" placeholder="Name">
+  <input class="textField" type="text" placeholder="How many people">
+  <input class="textField" type="datetime-local" value="2020-07-22T22:00" placeholder="Date and time">
+  <input class="textField" type="text" placeholder="Message \ Special requirements">
+  <a href="#">
+    <div id="SMessageButton">
+      SEND MESSAGE
+    </div>
+  </a>
+</div>
+</div>
+
+</html>

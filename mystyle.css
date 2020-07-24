@@ -69,6 +69,20 @@ h1
     margin: auto;
   }
 
+  .sendButton
+  {
+    color: white;
+    border: none;
+    padding: 16px;
+    background: none;
+
+  }
+
+  .sendButton:hover
+  {
+    color:black;
+  }
+
   #locPic
   {
     max-width: 100%;
@@ -83,16 +97,16 @@ h1
     padding: 3px;
   }
 
-  #SMessageButton
+  #SMessageButtonDiv
   {
     font-family: Inconsolata;
     background-color: black;
     color: white;
     display: inline-block;
-    padding: 16px;
+    padding: 0px;
   }
 
-  #SMessageButton:hover
+  #SMessageButtonDiv:hover
   {
     background-color: silver;
     color: black;

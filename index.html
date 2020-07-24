@@ -59,15 +59,20 @@
   </p>
 </div>
 <div id="formsDiv">
-  <input class="textField" type="text" placeholder="Name">
-  <input class="textField" type="text" placeholder="How many people">
-  <input class="textField" type="datetime-local" value="2020-07-22T22:00" placeholder="Date and time">
-  <input class="textField" type="text" placeholder="Message \ Special requirements">
-  <a href="#">
+  <form id="messageForm">
+  <input class="textField" type="text" placeholder="Name" required>
+  <input class="textField" type="text" placeholder="How many people" required>
+  <input class="textField" type="datetime-local" value="2020-07-22T22:00" placeholder="Date and time" required>
+  <input class="textField" type="text" placeholder="Message \ Special requirements" required>
+  <!--<a href="javascript:{}" onclick="document.getElementById('messageForm').submit();">
     <div id="SMessageButton">
       SEND MESSAGE
     </div>
-  </a>
+  </a>-->
+  <div id="SMessageButtonDiv">
+  <button type="submit" class="sendButton"> SEND MESSAGE </button>
+  </div>
+  </form>
 </div>
 </div>
 	<!-- Footer -->

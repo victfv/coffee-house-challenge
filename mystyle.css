@@ -5,6 +5,8 @@ h1
   }
   .blackTopMenuContainer
   {
+    position: fixed;
+    top:0;
     background-color: black;
     width: 100%;
     display: flex;
